@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  be:
+    image: maven:3-jdk-8
+    ports:
+      - "5897:5897"
+    volumes:
+      - ./be:/be
+    working_dir: /be
+    command: bash -c "mvn spring-boot:run"
+
+
+  fe:
+    image: node:10
+    volumes:
+      - ./fe:/fe
+    ports:
+      - "3000:3000"
+    working_dir: /fe
+    command: bash -c "npm install && npm start"
