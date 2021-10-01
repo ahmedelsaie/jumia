@@ -1,7 +1,7 @@
 to run the project
 ---------------------
-1- docker-compose up
-2- then access from web browser http://localhost:3000/
+* docker-compose up
+* then access from web browser http://localhost:3000/
 
 
 links and ports
