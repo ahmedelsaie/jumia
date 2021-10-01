@@ -11,5 +11,5 @@ links and ports
 
 languages
 -----------------------
-*backend is written in java spring-boot
-*frontend is written in react
+* backend is written in java spring-boot
+* frontend is written in react 
